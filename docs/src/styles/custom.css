@@ -1,0 +1,29 @@
+/* Starlight custom CSS: keep close to defaults, improve tables/badges. */
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.badge-vector {
+  background: #e8f0fe;
+  color: #1a56db;
+  border: 1px solid #1a56db33;
+}
+.badge-template {
+  background: #fff7e6;
+  color: #935705;
+  border: 1px solid #eab30855;
+}
+.badge-custom {
+  background: #e9f7ef;
+  color: #1e7e34;
+  border: 1px solid #1e7e3455;
+}
+table {
+  display: block;
+  overflow-x: auto;
+}

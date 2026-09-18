@@ -1,0 +1,13 @@
+{
+  // Shared by `npm run lint:md`.
+  // MD013: long table/link lines are normal in docs.
+  // MD033: Starlight components (Badge, Card, Aside) are required.
+  // MD041: splash and component-led pages need no H1 as first line.
+  // MD051: pages link to the Starlight-injected `#_top` page anchor.
+  "config": {
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD051": false
+  }
+}
